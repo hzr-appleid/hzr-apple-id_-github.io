@@ -6,181 +6,45 @@
     <title>Hzr Apple id</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #050505;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            margin-top: 40px;
-        }
-        .profile-img-area {
-            position: relative;
-            width: 110px;
-            height: 110px;
-            margin: 0 auto 15px auto;
-            background: #1c1c1e;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #2c2c2e;
-        }
-        .profile-img-area i.fa-apple {
-            font-size: 55px;
-            color: #ffffff;
-        }
-        .verified-badge {
-            position: absolute;
-            bottom: 5px;
-            right: 5px;
-            background: #2f80ed;
-            color: #ffffff;
-            border-radius: 50%;
-            width: 22px;
-            height: 22px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 11px;
-            border: 2px solid #050505;
-        }
-        h1 {
-            font-size: 24px;
-            margin: 0 0 8px 0;
-            font-weight: 600;
-        }
-        .subtitle {
-            color: #8e8e93;
-            font-size: 14px;
-            margin-bottom: 20px;
-            line-height: 1.4;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 35px;
-        }
-        .social-icons a {
-            color: #2f80ed;
-            font-size: 20px;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        .social-icons a:hover {
-            opacity: 0.8;
-        }
-        .section-title {
-            color: #8e8e93;
-            font-size: 13px;
-            text-align: right;
-            margin-bottom: 15px;
-            padding-right: 5px;
-        }
-        .links-container {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .link-card {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: #1c1c1e;
-            border: 1px solid #2c2c2e;
-            border-radius: 14px;
-            padding: 16px;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 15px;
-            transition: background 0.2s;
-        }
-        .link-card:hover {
-            background: #2c2c2e;
-        }
-        .link-right {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .link-right i {
-            color: #2f80ed;
-            font-size: 18px;
-            width: 20px;
-            text-align: center;
-        }
-        .link-left i {
-            color: #2f80ed;
-            font-size: 14px;
-        }
-        .footer-text {
-            margin-top: 50px;
-            color: #3a3a3c;
-            font-size: 11px;
-            letter-spacing: 0.5px;
-        }
+        body { font-family: -apple-system, sans-serif; background-color: #050505; color: white; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .header { text-align: center; margin: 30px 0; }
+        .logo-box { width: 80px; height: 80px; background: #1c1c1e; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto; font-size: 35px; border: 1px solid #2c2c2e; }
+        .list-container { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 10px; }
+        .item { background: #1c1c1e; padding: 15px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: white; border: 1px solid #2c2c2e; }
+        .item span { font-size: 13px; font-weight: 500; }
+        .install-btn { background: #2f80ed; padding: 5px 12px; border-radius: 6px; font-size: 11px; font-weight: bold; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="profile-img-area">
-            <i class="fab fa-apple"></i>
-            <div class="verified-badge">
-                <i class="fas fa-check"></i>
-            </div>
-        </div>
+    <div class="header">
+        <div class="logo-box"><i class="fab fa-apple"></i></div>
+        <h2 style="margin: 0;">Hzr Apple id</h2>
+        <p style="color: #8e8e93; font-size: 14px;">خزمەتگوزاریێن ئایفۆن و ESign</p>
+    </div>
 
-        <h1>Hzr Apple id</h1>
-        <div class="subtitle">سایتی فەرمی بۆ خزمەتگوزارییەکانی ئایفۆن و ESign</div>
-
-        <div class="social-icons">
-            <a href="https://t.me/hzr_apple_id" target="_blank"><i class="fab fa-telegram"></i></a>
-            <a href="https://snapchat.com/t/jaKJqTlk" target="_blank"><i class="fab fa-snapchat"></i></a>
-        </div>
-
-        <div class="section-title">خزمەتگوزاری و بەستەرەکان</div>
-
-        <div class="links-container">
-            
-            <a href="https://t.me/hzr_apple_id" class="link-card" target="_blank">
-                <div class="link-left"><i class="fas fa-external-link-alt"></i></div>
-                <div class="link-right">
-                    <span>کرینا بەڵگنامەی تایبەت (Certificates)</span>
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-            </a>
-
-            <a href="https://t.me/hzr_apple_id" class="link-card" target="_blank">
-                <div class="link-left"><i class="fas fa-download"></i></div>
-                <div class="link-right">
-                    <span>دابەزاندنا بەرنامێ ESign ڕاستەوخۆ</span>
-                    <i class="fas fa-cloud-download-alt"></i>
-                </div>
-            </a>
-
-            <a href="https://t.me/hzr_apple_id" class="link-card" target="_blank">
-                <div class="link-left"><i class="fas fa-chevron-left"></i></div>
-                <div class="link-right">
-                    <span>کەناڵی مە یێ تێلیگرامی</span>
-                    <i class="fab fa-telegram-plane"></i>
-                </div>
-            </a>
-
-        </div>
-
-        <div class="footer-text">Hzr Apple id © 2026 • All Rights Reserved</div>
+    <div class="list-container">
+        <!-- لیستێن ESign -->
+        <a href="https://github.com/p3xus/ESign/releases" class="item">
+            <span>ESign Official (IPA)</span>
+            <div class="install-btn">INSTALL</div>
+        </a>
+        <a href="https://github.com/p3xus/ESign/releases" class="item">
+            <span>ESign Global V1</span>
+            <div class="install-btn">INSTALL</div>
+        </a>
+        <a href="https://github.com/p3xus/ESign/releases" class="item">
+            <span>ESign China V1</span>
+            <div class="install-btn">INSTALL</div>
+        </a>
+        <a href="https://github.com/p3xus/ESign/releases" class="item">
+            <span>ESign PowerChina</span>
+            <div class="install-btn">INSTALL</div>
+        </a>
+        <a href="https://github.com/p3xus/ESign/releases" class="item">
+            <span>ESign Vietnam</span>
+            <div class="install-btn">INSTALL</div>
+        </a>
     </div>
 
 </body>
